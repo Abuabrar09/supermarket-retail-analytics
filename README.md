@@ -4,7 +4,9 @@ End-to-end retail analytics on two years of point-of-sale data (~158K receipts, 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Abuabrar09/supermarket-retail-analytics/blob/main/Supermarket_Sales_Analysis.ipynb)
 
-**Tools:** Python (pandas, NumPy) · SQL (SQLite — CTEs, window functions) · Matplotlib / Seaborn · Google Colab
+### 📊 [View the interactive dashboard →](https://abuabrar09.github.io/supermarket-retail-analytics/dashboard/)
+
+**Tools:** Python (pandas, NumPy) · SQL (SQLite — CTEs, window functions) · Matplotlib / Seaborn · JavaScript (Chart.js) · Google Colab
 
 ---
 
@@ -51,6 +53,16 @@ End-to-end retail analytics on two years of point-of-sale data (~158K receipts, 
 
 ---
 
+## 📈 Interactive Dashboard
+
+A three-page dashboard built from the same data, with year and store filters and hover tooltips. It opens in any browser with nothing to install: **[open the live dashboard](https://abuabrar09.github.io/supermarket-retail-analytics/dashboard/)**.
+
+- **Overview:** KPI cards with year-over-year change, monthly revenue vs. prior year, gross margin trend, category revenue vs. profit share, store scorecard, and a day × hour traffic heatmap
+- **Customers:** members vs. walk-in shoppers, RFM segments, cohort retention grid, and days between visits
+- **Promotions & Products:** profit impact of promotions by category and discount depth, top product affinities, and top products
+
+---
+
 ## 💾 About the Data
 
 The dataset is **simulated** to mirror a real grocery POS system. It includes realistic weekly and seasonal patterns, Texas holidays, product affinities, weekly promotions, loyalty-member churn, 2025 price and cost inflation, a weather-related store closure, and deliberate data-quality issues.
@@ -69,6 +81,7 @@ The dataset is **simulated** to mirror a real grocery POS system. It includes re
 
 ```
 ├── Supermarket_Sales_Analysis.ipynb   # full analysis (with outputs)
+├── dashboard/index.html               # interactive dashboard (served by GitHub Pages)
 ├── images/                            # charts used in this README
 └── README.md
 ```
